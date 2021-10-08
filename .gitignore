@@ -1,0 +1,25 @@
+# Ignore the node_modules directory
+bag_data/
+bag_data_msk/
+checkpoints
+*.pth
+*.pt
+
+# Ignore Logs
+logs
+*.log
+
+#ignore image and vedio
+*.mp4
+*.avi
+
+# Ignore the build directory
+/dist
+
+# The file containing environment variables 
+.env
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sw*
